@@ -11,6 +11,7 @@ const Header = (props: Props) => {
                 <li><Link href={`/products`}><a className='main-menu__item'>Products</a></Link></li>
                 <li><Link href={`/about`}><a className='main-menu__item'>About</a></Link></li>
                 <li><Link href={`/contact`}><a className='main-menu__item'>Contact</a></Link></li>
+                <li><Link href={`/admin`}><a className='main-menu__item'>Admin</a></Link></li>
             </ul>
         </div>
     )

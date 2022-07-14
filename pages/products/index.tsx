@@ -9,7 +9,7 @@ type ProductProps = {
 const ProductsPage = ({ products }: ProductProps) => {
     if (!products) return null;
     return (
-        <div>
+        <div className='min-h-[680px]'>
             {products.map((item) =>
                 <div key={item.id}><Link href={`/products/${item.id}`}>{item.name}</Link></div>
             )}
