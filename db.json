@@ -1,7 +1,25 @@
 {
-    "products":[
-        {"id":"1", "name":"Product A"},
-        {"id":"2", "name":"Product B"},
-        {"id":"3", "name":"Product C"}
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Product A"
+    }
+  ],
+  "users": [
+    {
+      "email": "user1@gmail.com",
+      "password": "$2a$10$bH55yxZ3nx0MPbsU0FIcq.5o5G6R1ikB75VC6pZbapw26x6WirDqW",
+      "id": 2
+    },
+    {
+      "email": "duong@gmail.com",
+      "password": "$2a$10$ETt1DwewTiBqoA6GimM0mOlc.15JbdFiLnaBg/UoPt7Ro7efHbG1O",
+      "id": 3
+    },
+    {
+      "email": "rom@gmail.com",
+      "password": "$2a$10$v6LDVQcENiSAXKr4kTQoYuj5wPa8JMzCQ0U/puA9vy0/iw0xHcPOm",
+      "id": 4
+    }
+  ]
 }
