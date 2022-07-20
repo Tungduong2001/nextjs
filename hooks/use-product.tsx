@@ -4,7 +4,6 @@ import { add, removeItem } from "../api/product"
 const useProduct = () => {
     const { data, error, mutate } = useSWR('/products')
 
-
     const create = async (item: any) => {
         const product = await add(item)
         mutate([...data, product])

@@ -10,4 +10,3 @@ export const list = (url: any) => {
 export const signin = (user: any) => {
     return instance.post("/signin", user)
 }
-
